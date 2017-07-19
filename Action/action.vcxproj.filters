@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\utility">
+      <UniqueIdentifier>{86593063-4cc6-482d-96a9-b18896f4c9ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\lib">
+      <UniqueIdentifier>{5e46f4be-f1a9-449b-96f5-6256289c191f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\In Game">
+      <UniqueIdentifier>{4174dc0f-108c-4891-b4b7-3ae2ab56ac10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\In Game\Player">
+      <UniqueIdentifier>{33dc1a2c-d5b6-49ad-be9f-f289910b1818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\In Game\Map">
+      <UniqueIdentifier>{75ff3888-c1d0-447f-bd0b-add891d3a3cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\In Game\Enemy">
+      <UniqueIdentifier>{78ce0acb-4ad3-4cd4-90eb-20433583389b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene">
+      <UniqueIdentifier>{c06141e2-d27a-451e-aab0-2ac2042417a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Stage">
+      <UniqueIdentifier>{52df5ea9-701d-48b7-917a-69f11f108bcf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\Title">
+      <UniqueIdentifier>{5115d787-6365-4bcc-97af-387cea2da6bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Scene\End">
+      <UniqueIdentifier>{26f95eeb-ae31-4db9-a2da-3530506d5cf6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\define.h">
+      <Filter>ソース ファイル\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Player.h">
+      <Filter>ソース ファイル\In Game\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Enemy.h">
+      <Filter>ソース ファイル\In Game\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Map.h">
+      <Filter>ソース ファイル\In Game\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stage1.h">
+      <Filter>ソース ファイル\Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StageControl.h">
+      <Filter>ソース ファイル\Scene\Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Title.h">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="src\end.h">
+      <Filter>ソース ファイル\Scene\End</Filter>
+    </ClInclude>
+    <ClInclude Include="src\config.h">
+      <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Meun.h">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\easing.h">
+      <Filter>ソース ファイル\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\effect.h">
+      <Filter>ソース ファイル\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\Gameover.h">
+      <Filter>ソース ファイル\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\GameStart.h">
+      <Filter>ソース ファイル\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\objectbase.h">
+      <Filter>ソース ファイル\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\ci_ext\math.hpp">
+      <Filter>ソース ファイル\utility</Filter>
+    </ClInclude>
+    <ClInclude Include="src\lib\gplib.h">
+      <Filter>ソース ファイル\lib</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Player.cpp">
+      <Filter>ソース ファイル\In Game\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Enemy.cpp">
+      <Filter>ソース ファイル\In Game\Enemy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Map.cpp">
+      <Filter>ソース ファイル\In Game\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="src\stage1.cpp">
+      <Filter>ソース ファイル\Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StageControl.cpp">
+      <Filter>ソース ファイル\Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Title.cpp">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="src\end.cpp">
+      <Filter>ソース ファイル\Scene\End</Filter>
+    </ClCompile>
+    <ClCompile Include="src\config.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Meun.cpp">
+      <Filter>ソース ファイル\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\easing.cpp">
+      <Filter>ソース ファイル\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\effect.cpp">
+      <Filter>ソース ファイル\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\Gameover.cpp">
+      <Filter>ソース ファイル\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\GameStart.cpp">
+      <Filter>ソース ファイル\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\objectbase.cpp">
+      <Filter>ソース ファイル\utility</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lib\gplib.cpp">
+      <Filter>ソース ファイル\lib</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
